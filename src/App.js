@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Header from './header';
+import Body from './body';
+import projects from './data/projects';
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Hi, my name is Matt</h2>
-        </div>
+      <div className="container-fluid">
+          <Header />
+          <Body projects={projects} />
         <p className="App-intro">
-          Welcome to my developer homepage.
+          About Me.
         </p>
       </div>
     );
   }
 }
-
-export default App;
