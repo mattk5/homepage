@@ -5,9 +5,17 @@ import './header.css';
 export default class Header extends Component {
 	render() {
 		return(
-			<header className="App-header">
-				Matt Kubota | Web Developer | Pasta Consumer 
-			</header>
+			<div className="header">
+				Matt Kubota | Web Developer 
+			<nav className="header-links">
+				<ul>
+					<li>Projects</li>
+					<li>About</li>
+					<li>Resume</li>
+					<li>Email</li>
+				</ul>
+			</nav>
+			</div>
 			);
 	}
 }

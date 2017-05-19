@@ -1,0 +1,15 @@
+.about {
+  	background-color: #A9BCD0;
+}
+
+.about-title {
+	padding: 20px;
+	background-color: #373F51;
+	color: white;
+	font-size: 30px;
+	border-bottom: gray 3px solid;
+}
+
+.about-body {
+	padding: 0px 10px 20px 10px;
+}
