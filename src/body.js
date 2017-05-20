@@ -21,9 +21,9 @@ export default class Body extends Component {
 	render() {
 		return(
 			<div id="project-container">
-			<div className="project-title">
-				<p>PROJECTS</p>
-			</div>
+				<div className="project-header">
+					<p>PROJECTS</p>
+				</div>
 				{this.props.projects.map(project => {
 					const divBackground = {
 						background: project.backgroundColor
@@ -31,13 +31,11 @@ export default class Body extends Component {
 					return(
 						<div className="each-project" style={divBackground}>
 							<div className="project-info">
-								<h3>{project.name}</h3>
-								<div>{project.description}</div>
+								<div className="each-title">{project.name}</div>
+								<div className="project-description">{project.description}</div>
 								<a className="live" href={project.url}>{project.name}</a>
 								<a className="source" href={project.source}>Source Code</a>
-							</div>
-							<div className="picture">
-								<p>This is the picture.</p>
+								<img className="picture" src={project.imgSrc} alt=""/>
 							</div>
 						</div>
 						)

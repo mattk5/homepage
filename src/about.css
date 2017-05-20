@@ -7,9 +7,12 @@
 	background-color: #373F51;
 	color: white;
 	font-size: 30px;
-	border-bottom: gray 3px solid;
+	font-weight: 100;
+	border-bottom: #ff751a 3px solid;
 }
 
 .about-body {
+	font-size: 14px;
+	font-weight: 100;
 	padding: 0px 10px 20px 10px;
 }

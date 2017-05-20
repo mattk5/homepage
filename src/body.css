@@ -1,37 +1,51 @@
-.project-title {
-	background-color: #FF4500;
+.project-header {
+	background-color: #ff751a;
 	padding: 2px 0px 2px 15px;
-	border-bottom: gray 3px solid;
+	border-bottom: #373F51 3px solid;
+	font-size: 22px;
+	font-weight: 100;
 }
 
 .each-project {
 	background-color: #d580ff;
 	min-height: 225px;
+	width: 100%;
 }
 
-.project-info {
-	width: 30%;
+.each-title {
+	font-size: 20px;
+	padding: 10px 0 10px 0;
+}
+
+.project-description {
+	/*width: 30%;*/
 	font-size: 12px;
-	display: inline-block;
+	font-weight: 100;
 	margin-right: 10px;
 	padding-left: 15px;
-}
-
-.picture {
-	width: 65%;
-	height: 195px;
-	display: inline-block;
-	background-color: #e6b3ff;
 }
 
 .live {
 	margin-top: 110px;
 	float: left;
 	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: 100;
 }
 
 .source {
 	margin-top: 110px;
-	float: right;
+	float: left;
 	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.picture {
+	/*width: 65%;*/
+	height: 195px;
+	/*float: right;*/
+	background-color: #e6b3ff;
 }
