@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-	width: 93%;
+	width: 85%;
+	/*the width was 93% before*/
 	margin: auto;
 }
 
