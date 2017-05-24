@@ -19,11 +19,11 @@
 .each-title {
 	font-size: 16px;
 	font-weight: 200;
-	padding: 10px 0 10px 10px;
+	padding: 10px 0 5px 10px;
 	margin-left: 10px;
 }
 
-#each-link {
+.each-link {
 	text-decoration: none;
 	color: white;
 }
@@ -31,16 +31,13 @@
 .each-description {
 	font-size: 14px;
 	font-weight: 100;
-	padding: 0px 25px 0px 25px;
-	text-align: center;
+	padding: 0px 35px 0px 35px;
 }
 
 .each-source {
-	margin-top: 10px;
+	margin-left: 21px;
 	text-decoration: none;
 	color: white;
 	font-size: 12px;
 	font-weight: 100;
-	margin-left: 21px;
-	float: left;
 }

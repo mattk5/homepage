@@ -15,7 +15,7 @@ export default class Body extends Component {
 					}
 					return(
 						<div className="each-project" style={divBackground}>
-							<div className="each-title"><a href={project.url} id="each-link">{project.name}</a></div>
+							<div className="each-title"><a href={project.url} className="each-link">{project.name}</a></div>
 							<div className="each-description">{project.description}</div>
 							<a className="each-source" href={project.source}>Source Code</a>
 						</div>
