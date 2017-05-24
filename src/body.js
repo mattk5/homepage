@@ -5,7 +5,7 @@ import './body.css';
 export default class Body extends Component {
 	render() {
 		return(
-			<div id="project-container">
+			<div>
 				<div className="project-header">
 					<p id="header-title">Projects</p>
 				</div>
@@ -15,11 +15,9 @@ export default class Body extends Component {
 					}
 					return(
 						<div className="each-project" style={divBackground}>
-							<div className="project-info">
-								<div className="each-title"><a href={project.url} id="project-link">{project.name}</a></div>
-								<div className="project-description">{project.description}</div>
-								<a className="source" href={project.source}>Source Code</a>
-							</div>
+							<div className="each-title"><a href={project.url} id="each-link">{project.name}</a></div>
+							<div className="each-description">{project.description}</div>
+							<a className="each-source" href={project.source}>Source Code</a>
 						</div>
 						)
 				})}

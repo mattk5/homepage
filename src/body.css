@@ -12,7 +12,7 @@
 }
 
 .each-project {
-	min-height: 150px;
+	min-height: 135px;
 	width: 100%;
 }
 
@@ -23,21 +23,20 @@
 	margin-left: 10px;
 }
 
-#project-link {
+#each-link {
 	text-decoration: none;
 	color: white;
 }
 
-.project-description {
+.each-description {
 	font-size: 14px;
 	font-weight: 100;
-	margin-right: 10px;
-	padding-left: 15px;
+	padding: 0px 25px 0px 25px;
 	text-align: center;
 }
 
-.source {
-	margin-top: 25px;
+.each-source {
+	margin-top: 10px;
 	text-decoration: none;
 	color: white;
 	font-size: 12px;
