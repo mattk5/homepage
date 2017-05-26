@@ -8,7 +8,7 @@ export default class Header extends Component {
 	render() {
 		return(
 			<div className="header-main">
-				<p id="header-name">Hey! I'm Matt Kubota</p>  
+				<p id="header-name">Hi! I'm Matt Kubota</p>  
 				<nav className="header-links">
 					<ul>
 						<li><a href="#about" className="links">About Me</a></li>
