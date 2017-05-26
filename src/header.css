@@ -9,6 +9,11 @@
   color: white;
 }
 
+.background-tint {
+	background-color: rgba(75,50,0,.5);
+	background-blend-mode: multiply;
+}
+
 #header-name {
   	text-align: left;
   	font-size: 34px;

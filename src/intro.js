@@ -9,15 +9,15 @@ export default class Intro extends Component {
 				<p id="intro-title">What I do</p>
 				<div className="intro-body">
 					<h3>Coding</h3>
-					<p>I love creating things from scratch as well contributing to open source.</p>
+					<p>I create things when given a computer. I love working in back-end development and dabble with front-end design & development as well.</p>
 				</div>
 				<div className="intro-body">
 					<h3>Collaboration</h3>
-					<p>With a passion for helping others, I enjoy collaborating on bringing people's dreams to life.</p>
+					<p>With a passion for helping others, I enjoy working with people to help bring their dreams and ideas to life, staying by their side every step of the way.</p>
 				</div>
 				<div className="intro-body">
 					<h3>Learning</h3>
-					<p>I treat every oppportunity as a learning experience. There's always something new to learn.</p>
+					<p>I'm always enthusiastic about the opportunity to learn something new. Web development has helped me value knowledge so much more.</p>
 				</div>
 			</div>
 			)

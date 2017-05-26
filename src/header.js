@@ -7,7 +7,7 @@ import resume from './pictures/mkubota_resume.pdf'
 export default class Header extends Component {
 	render() {
 		return(
-			<div className="header-main">
+			<div className="header-main background-tint">
 				<p id="header-name">Hi! I'm Matt Kubota</p>  
 				<nav className="header-links">
 					<ul>
