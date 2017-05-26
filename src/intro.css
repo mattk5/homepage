@@ -1,0 +1,19 @@
+.intro-main {
+	margin-top: 10px;
+	padding-bottom: 100px;
+}
+
+#intro-title {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.intro-body {
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	font-size: 15px;
+	/*margin-bottom: 20px;*/
+}

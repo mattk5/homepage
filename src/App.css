@@ -6,9 +6,11 @@ body {
 }
 
 .container {
-	width: 85%;
+	width: 100%;
 	/*the width was 93% before*/
 	margin: auto;
+	font-weight: 100;
+	overflow: hidden;
 }
 
 
