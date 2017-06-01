@@ -17,7 +17,7 @@ export default class Intro extends Component {
 				</div>
 				<div className="intro-body">
 					<h3>Learning</h3>
-					<p>I am enthusiastic when given the opportunity to learn something new. I value knowledge more since I've begun wokring in Web Development.</p>
+					<p>I am enthusiastic when given the opportunity to learn something new. I value knowledge more since I have begun working in Web Development.</p>
 				</div>
 			</div>
 			)
